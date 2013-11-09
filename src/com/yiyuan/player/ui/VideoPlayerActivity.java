@@ -651,7 +651,7 @@ public class VideoPlayerActivity extends YiYuanPlayerActivity implements IVideoP
     private void sendHideControlPanelMessage() {
     	Message msg = new Message();
         msg.what = HIDE_CONTROL_PANEL;
-        mHandler.sendMessageDelayed(msg, 6000);
+        mHandler.sendMessageDelayed(msg, 6500);
     }
 
     /**

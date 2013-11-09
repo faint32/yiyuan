@@ -312,8 +312,8 @@ public class VideoDetailsFragment extends YiYuanFragment {
 			 			public void run() {
 			 				System.out.println(playerUrl);
 			 				AudioServiceController c = AudioServiceController.getInstance();
-//			 				c.load(playerUrl, false);
-			 				c.load("http://data.vod.itc.cn/?new=/209/213/LO8Rik3sTZwj2nDBXV4n46.mp4", false);
+			 				c.load(playerUrl, false);
+//			 				c.load("http://data.vod.itc.cn/?new=/209/213/LO8Rik3sTZwj2nDBXV4n46.mp4", false);
 			 			}
 			         };
 			         task.execute();
