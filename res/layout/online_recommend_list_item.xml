@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/home_label"/>
+    <RelativeLayout
+        android:id="@+id/switch_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/large_linearlayout"
+            android:layout_width="@dimen/recommend_online_list_item_large_pic_width"
+            android:layout_height="@dimen/recommend_online_list_item_large_pic_height"
+            android:background="@drawable/online_postview"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/videoItem_large"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                android:background="@drawable/online_postview"
+                >
+
+                <ImageView
+                    android:id="@+id/videoImage_large"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/home_page_default_long"
+                     />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/small_linearlayout"
+            android:layout_width="@dimen/recommend_online_list_item_small_pic_width_height"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/videoItem_above"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/recommend_online_list_item_small_pic_width_height"
+                android:layout_marginBottom="@dimen/recommend_online_list_item_above_pic_margin_below"
+                android:background="@drawable/online_postview"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/videoImage_above"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right"
+                    android:adjustViewBounds="false"
+                    android:background="@drawable/home_page_default_square"
+                    android:scaleType="centerCrop" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/videoItem_below"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/recommend_online_list_item_small_pic_width_height"
+                android:background="@drawable/online_postview"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/videoImage_below"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right"
+                    android:adjustViewBounds="false"
+                    android:background="@drawable/home_page_default_square"
+                    android:scaleType="centerCrop" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

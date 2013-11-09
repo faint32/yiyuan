@@ -1,0 +1,25 @@
+主页： 左侧菜单 listview listview adapter 是SidebarAdapter
+
+193行为左侧菜单listviewitem点击事件
+
+271行 changeMenuOffset 方法设置左侧菜单宽度
+
+280行 prepareActionBar 方法设置actionbar
+
+451行 onOptionsItemSelected方法 
+	459行 R.id.ml_menu_sortby_length 排序条件
+	469行 R.id.ml_menu_about 关于
+	474行 R.id.ml_menu_preferences设置
+	479行 R.id.ml_menu_refresh 刷新
+	491行 R.id.ml_menu_last_playlist 上次使用时的播放列表
+	496行 R.id.ml_menu_open_mrl 打开网络流
+	502行 R.id.home 设置显示主页内容还是菜单内容
+
+559行 BroadcastReceiver 设置是否显示进度条
+
+615行 showProgressBar 显示进度条
+623行 hideProgressBar 隐藏进度条
+631行 sendTextInfo 显示进度
+642行 clearTextInfo 清除进度
+
+646行 onOpenMRL 打开网络流

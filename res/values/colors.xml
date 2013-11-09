@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white_text_background">#ffffffff</color>
+    <color name="share_bg">#ffe4e6ea</color>
+    <color name="online_home_label_textcolor">#ff51565e</color>
+    <color name="online_home_label_source_color">#fff88c00</color>
+    <color name="left_menu_body_bg">#ff303030</color>
+    <color name="linedeepcolor">#ff1b1b1b</color>
+    <color name="linelightcolor">#ff454545</color>
+    <color name="menuleft_user_name_text_color">#ffffffff</color>
+    <color name="white">#ffffffff</color>
+    <color name="title_background">#ff31363B</color>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Player</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="network_error">当前无网络，请检查您的网络设置</string>
+    <string name="online_network_error">"网络异常
+请检查网络
+点击屏幕请重新连接"</string>
+    <string name="help_text">帮助</string>
+    <string name="menuleft_user_name_text">我的空间</string>
+    <string name="first_in_left_menu_notice">点此进入</string>
+    <string name="locked">屏幕已锁定</string>
+    <string name="unlocked">屏幕已解锁</string>
+    <string name="encountered_error_title">回放错误</string>
+    <string name="encountered_error_message">VLC 播放该媒体时遇到问题。\n请尝试刷新媒体库。</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="volume">音量</string>
+    <string name="enable_brightness_gesture">启用亮度手势</string>
+    <string name="track_audio">音频轨</string>
+    <string name="track_text">字幕轨</string>
+    <string name="surface_best_fit">最为合适</string>
+    <string name="surface_fit_horizontal">水平匹配</string>
+    <string name="surface_fit_vertical">垂直匹配</string>
+    <string name="surface_fill">填充</string>
+    <string name="surface_original">居中</string>
+    <string name="brightness">亮度</string>
+    <string name="loading">正在加载</string>
+    <string name="please_wait">请稍候…</string>
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="actor_format">主演：%s</string>
+    <string name="to_download">离线下载</string>
+    <string name="from">播放来源：</string>
+    <string name="play">立即播放</string>
+    <string name="play_continue">继续播放</string>
+    <string name="video_detail">视频详情</string>
+    
+    <string name="hot">热播</string>
+    <string name="movie">电影</string>
+    <string name="live">直播</string>
+    <string name="micromovie">微电影</string>
+    <string name="tvplay">电视剧</string>
+    <string name="tvshow">综艺</string>
+    <string name="comic">动漫</string>
+    <string name="amuse">搞笑</string>
+    <string name="yule">娱乐</string>
+    <string name="music">音乐</string>
+    <string name="sport">体育</string>
+    <string name="ranking">榜单</string>
+    
+<string name="time_0" translatable="false">0:00</string>
+</resources>

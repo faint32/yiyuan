@@ -1,0 +1,13 @@
+VideoGridFragment 本地视频列表
+
+VideoListAdapter 适配器
+
+259行 playVideo 打开播放视频页面  VideoPlayerActivity
+
+264行 playAudio  打开播放音频页面 AudioPlayerFragment
+
+273行 R.id.video_list_play 播放
+276行 R.id.video_list_play_from_start 从头开始播放
+279行 R.id.video_list_play_audio: 作为音频播放
+282行  R.id.video_list_info 视频信息 打开MediaInfoActivity
+288行 R.id.video_list_delete 删除

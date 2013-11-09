@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/recommend_online_list_margin_left_right"
+    android:paddingRight="@dimen/recommend_online_list_margin_left_right" >
+
+    <include
+        android:id="@+id/home_label"
+        layout="@layout/home_label"
+        android:clickable="true" />
+
+    <ListView
+        android:id="@+id/home_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/recommend_online_list_divider_size"
+        android:drawSelectorOnTop="false"
+        android:focusable="false"
+        android:listSelector="@android:color/transparent" />
+
+</LinearLayout>

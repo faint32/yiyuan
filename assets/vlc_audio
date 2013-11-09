@@ -1,0 +1,16 @@
+AudioBrowserFragment 音频显示fragment
+
+oncreateView 130行 songsList 歌曲列表 AudioListAdapter 适配器 
+	     131行 artistList 艺术家 AudioPlaylistAdapter
+	     132行 albumList 专辑 AudioPlaylistAdapter
+	     133行 genres 流派 AudioPlaylistAdapter 
+
+onActivityCreated 157行 updateLists 更新列表
+
+OnItemClickListener 178行 列表点击事件
+
+OnGroupClickListener 186行 
+
+OnChildClickListener 215行
+
+ViewSwitchListener 350行 滑动事件

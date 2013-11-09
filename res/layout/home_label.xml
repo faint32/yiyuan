@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/recommend_online_label_height"
+    android:layout_marginBottom="@dimen/recommend_online_label_info_margin_bottom"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/home_label_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/recommend_online_label_height" >
+
+        <ImageView
+            android:id="@+id/label_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/recommend_online_list_margin_left_right"
+            android:src="@drawable/icon_home_pag_film" />
+
+        <TextView
+            android:id="@+id/label_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/label_icon"
+            android:textColor="@color/online_home_label_textcolor"
+            android:textSize="@dimen/recommend_online_label_info_text_size" />
+
+        <ImageButton
+            android:id="@+id/label_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/recommend_online_list_margin_left_right"
+            android:background="@drawable/home_page_next" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.5dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="1.0dip"
+        android:background="#ffb0b4ba" />
+
+</RelativeLayout>

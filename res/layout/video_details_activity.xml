@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/darker_gray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/layout_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/title_background"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/btn_logo"
+                    android:layout_width="60.0dip"
+                    android:layout_height="45.0dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="5.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:background="@drawable/selector_btn_back" />
+
+                <TextView
+                    android:id="@+id/video_details_title"
+                    android:layout_width="200.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:text="视频详情"
+                    android:textColor="@android:color/white"
+                    android:textSize="20.0sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/lin"
+                    android:layout_width="95.0dip"
+                    android:layout_height="140.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_marginTop="5.0dip" >
+
+                    <ImageView
+                        android:id="@+id/video_details_image"
+                        android:layout_width="85.0dip"
+                        android:layout_height="130.0dip"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/video_details_videoname"
+                        android:layout_width="150.0dip"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="42号传奇"
+                        android:textSize="20.0sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/video_details_actor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2.0dip"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:maxHeight="80.0dip"
+                        android:text="主演：哈里森"
+                        android:maxLines="1"
+                        android:textSize="14.0sp" />
+
+                    <TextView
+                        android:id="@+id/video_details_pubtime"
+                        android:layout_width="150.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2.0dip"
+                        android:gravity="center_vertical"
+                        android:maxHeight="80.0dip"
+                        android:text="2013"
+                        android:textSize="14.0sp" />
+
+                    <TextView
+                        android:id="@+id/videoPlayButton_history_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35.0dip"
+                        android:singleLine="true"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/vido_details_videoPlayButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3.0dip"
+                         />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/bagpanelpage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30.0dip"
+                    android:orientation="horizontal"
+                    android:visibility="visible" />
+
+                <RelativeLayout
+                    android:id="@id/gridview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="150.0dip"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/changePlayView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    android:id="@+id/describeTextview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/video_details_intro"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="4dp"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

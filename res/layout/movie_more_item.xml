@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/movie_more_item_img_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/detail_padding_left"
+        android:paddingTop="2.0dip" >
+
+        <FrameLayout
+            android:id="@+id/movie_more_item_bg"
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/image_height"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/default_image"
+            android:padding="@dimen/video_poster_padding" >
+
+            <ImageView
+                android:id="@+id/movie_more_item_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/movie_more_item_rate_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="2.0dip"
+                android:layout_marginLeft="4.0dip"
+                android:ellipsize="end"
+                android:gravity="left|bottom"
+                android:singleLine="true"
+                android:textColor="#ffffffff"
+                android:textSize="14.0sp"
+                android:textStyle="italic" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/movie_more_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movie_more_item_img_area"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dip"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

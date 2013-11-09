@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/navigationbar_bg"
+    android:gravity="center"
+    android:paddingLeft="@dimen/title_padding"
+    android:paddingRight="@dimen/title_padding" >
+
+    <Button
+        android:id="@+id/left_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/main_menu_left_btn" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/title_textview_height"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxWidth="@dimen/title_max_width"
+        android:singleLine="true"
+        android:textColor="@color/white_text_background"
+        android:textSize="@dimen/title_text_size" />
+
+    <ImageView
+        android:id="@+id/viewchange_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/title_text_marginTop"
+        android:src="@drawable/navigationbar_viewchange_arrow"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/right_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/online_right_btn" />
+
+</RelativeLayout>

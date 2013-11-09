@@ -1,0 +1,71 @@
+{
+    "id": "69027",
+    "title": "42号传奇",
+    "trunk": "42号传奇",
+    "img_url": "http://t3.baidu.com/it/u=1993969871,4004164221&fm=20",
+    "intro": "讲述美国棒球大联盟的传奇Jackie Robinson,是如何冲破种族偏见，又是如何成为美国体育运动的标志人物的。",
+    "rating": "4.9",
+    "duration": "0:0",
+    "pubtime": "2013",
+    "director": [
+        "布莱恩·海尔格兰德"
+    ],
+    "actor": [
+        "哈里森·福特",
+        "艾伦·图代克",
+        "克里斯托弗·米洛尼"
+    ],
+    "area": [
+        "美国"
+    ],
+    "type": [
+        "剧情",
+        "传记",
+        "运动"
+    ],
+    "site_type": "2",
+    "play_filter": "0",
+    "bdhd": "bdhd://510187914|0047C2504B620873B34D6740CF0B6CE6|42号传奇.高清中字.rmvb",
+    "sites": [
+        {
+            "site_name": "影音1",
+            "site_logo": "http://list.video.baidu.com/logowise/bdyyplayer.png",
+            "site_url": "http://www.baiy.net/dz1/42haochuanqi/",
+            "tvid": "0",
+            "download": "0",
+            "download_filter": "0",
+            "value": "0",
+            "type": "movie",
+            "bcs_url": "",
+            "width": "720",
+            "height": "304"
+        },
+        {
+            "site_name": "影音2",
+            "site_logo": "http://list.video.baidu.com/logowise/bdyyplayer.png",
+            "site_url": "http://www.qire123.com/videos/54099vod-play-id-54099-sid-0-pid-1.html",
+            "tvid": "0",
+            "download": "0",
+            "download_filter": "0",
+            "value": "0",
+            "type": "movie",
+            "bcs_url": "",
+            "width": "1280",
+            "height": "720"
+        },
+        {
+            "site_name": "影音3",
+            "site_logo": "http://list.video.baidu.com/logowise/bdyyplayer.png",
+            "site_url": "http://www.wo318.com/index/play/18262_1_1.shtml",
+            "tvid": "0",
+            "download": "0",
+            "download_filter": "0",
+            "value": "0",
+            "type": "movie",
+            "bcs_url": "",
+            "width": "720",
+            "height": "304"
+        }
+    ],
+    "foreign_ip": "0"
+}
