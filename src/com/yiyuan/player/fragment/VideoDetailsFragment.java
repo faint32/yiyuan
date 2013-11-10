@@ -292,6 +292,7 @@ public class VideoDetailsFragment extends YiYuanFragment {
 			public void onResponse(PlayerAddress response) {
 				// TODO Auto-generated method stub
 				String url = response.getVideo_source_url();
+				System.out.println(url);
 				setPlayerOnClickListener(url);
 			}
 		}, new OnErrorListener(context));
@@ -310,10 +311,8 @@ public class VideoDetailsFragment extends YiYuanFragment {
 
 			 			@Override
 			 			public void run() {
-			 				System.out.println(playerUrl);
 			 				AudioServiceController c = AudioServiceController.getInstance();
 			 				c.load(playerUrl, false);
-//			 				c.load("http://data.vod.itc.cn/?new=/209/213/LO8Rik3sTZwj2nDBXV4n46.mp4", false);
 			 			}
 			         };
 			         task.execute();

@@ -2,6 +2,7 @@ package com.yiyuan.player.fragment;
 
 import java.io.InputStream;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -12,6 +13,7 @@ import android.widget.LinearLayout;
 
 import com.google.gson.Gson;
 import com.yiyuan.player.R;
+import com.yiyuan.player.engine.MyIntents;
 import com.yiyuan.player.entity.RightUI;
 import com.yiyuan.player.ui.MainActivity;
 
@@ -45,7 +47,13 @@ public class RightFragment extends YiYuanFragment {
 	public void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		activity = (MainActivity) getActivity();
+		System.out.println(activity.getFilesDir().getParent());
 		mFragmentManager = getActivity().getSupportFragmentManager();
+		Intent mIntent = new Intent("com.yiyuan.player.IDownloadSerice");
+		mIntent.putExtra(MyIntents.TYPE, MyIntents.Types.ADD);
+		mIntent.putExtra(MyIntents.URL, "http://master.dl.sourceforge.net/project/longtv/TVInfo.db");
+		mIntent.putExtra("savepath", activity.getFilesDir().getPath()+activity.getPackageName()+"/database");
+		activity.startService(mIntent);
 		super.onCreate(savedInstanceState);
 	}
 
@@ -56,6 +64,7 @@ public class RightFragment extends YiYuanFragment {
 		View view = inflater.inflate(R.layout.right_container, null);
 		initView(view);
 		makeRequest();
+		
 		return view;
 	}
 
